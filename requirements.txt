@@ -1,0 +1,5 @@
+streamlit
+langchain
+torch
+transformers
+gitpython
