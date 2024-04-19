@@ -17,6 +17,7 @@ if local:
 else:
     user_key = st.text_input("Enter your OpenAI Key", "")
 if user_key:
+    os.environ['OPENAI_API_KEY'] = user_key
     st.title("Answer IT")
     st.sidebar.title("Text Section")
 
